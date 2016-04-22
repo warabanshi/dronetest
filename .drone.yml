@@ -1,5 +1,6 @@
 build:
     image: castis/centos7
     commands:
-        - echo "test dayo" `date` > /tmp/test.log
+        - echo "test dayo" `date` >> /tmp/test.log
+        - echo "test dayo2" `date` >> /tmp/test.log
 
